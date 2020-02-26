@@ -2,9 +2,10 @@
   "name": "estate_api",
   "version": "1.0.0",
   "description": "An Node Powered Estate API",
-  "main": "app.js",
+  "main": "app/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,9 @@
   "homepage": "https://github.com/abu-hasib/estate-api#readme",
   "devDependencies": {
     "debug": "^4.1.1",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongodb": "^3.5.2",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2"
   }
 }

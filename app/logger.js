@@ -1,3 +1,5 @@
-const debug = require("debug")("test");
+const morgan = require("morgan");
 
-module.exports = debug;
+logger = morgan("combined");
+
+module.exports = logger;
